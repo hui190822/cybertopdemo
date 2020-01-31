@@ -57,36 +57,59 @@ footer p{
   }
 /*breadcrumb end */
 
-/* word content start*/
-
-.witem{
-    padding: 0 20px;
+/* job content start*/
+.icon{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
 }
+ .icon img{
+     max-width: 50px;
+     padding-right: 20px;
+     height: 50px;
+ }
+ .icon h3{
+    line-height: 50px;
+    font-size: 20px;
 
-.witem h2{
-    font-size: 28px;
-    padding: 40px 0px;
-    line-height: 1.2;
+}
+hr{
+    display: none;
+  }
+.job{
+    margin: 0 10px;
+}
+.job img{
+width: 100%;
+}
+.jobwrap .item{
+    padding: 20px 0;
+}
+.jobwrap h2{
     width: auto;
-    margin: auto;
-    font-weight: bold;
-    
-
+    font-size: 24px;
+    text-align: center;
 }
-.witem p{
-    word-wrap: break-word;
+.jobwrap p{
     font-size: 16px;
+    text-align: center;
     line-height: 1.8;
 }
-
-.signature{
-    text-align: right;
-    font-size: 18px;
-    font-weight: bolder;
+.jobwrap a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #0066a7;
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.jobwrap a:hover{
+    text-decoration: underline;
+    color: #0066a7;
 }
 
-
-/* word content end*/
+/* job content end*/
 
 
 /* 769 up footer menu start*/
@@ -178,12 +201,6 @@ footer p{
 
 
 @media screen and (max-width: 768px){
-    .icon{
-        display: none;
-    }
-    hr{
-        display: none;
-    }
     .search{
         display: none;
     }
@@ -191,10 +208,6 @@ footer p{
     .breadcrumb{
         display: none;
     }
-
-    /* word content start*/
-    
-    /* word content start*/
 
     .container{
         display: none;
@@ -761,13 +774,11 @@ footer p{
     .footercontainer{
         display: none;
     }
-         /* word content start*/
+         /* job content start*/
 
          .icon{
             display: flex;
             justify-content: center;
-            /* width: 100%; */
-            /* background-color: tomato; */
             padding-top: 40px;
             
         }
@@ -783,29 +794,64 @@ footer p{
       
         }
         hr{
+            display: block;
           margin-top: 40px;
-          width: 800px;
+          width: 100%;
           border: 1px solid #0066a7;
           background-color: #0066A7;
           height: 3px;
         }
 
-        .wordwrap{
-            max-width: 800px;
+        hr{
+            display: none;
+          }
+        .job{
+            max-width: 960px;
             margin: auto;
+            padding-top: 40px;
+
         }
+        .jobwrap{
+            display: flex;
+        }
+        .job img{
+        width: 100%;
 
-.witem{
-    padding: 0 50px;
-}
-
-.witem h2{
-    font-size: 32px;
-
-}
-
-
-/* word content end*/
+        }
+        .jobwrap .item{
+            padding: 20px;
+            width: 300px;
+            margin: 0 10px;
+        }
+        .jobwrap h2{
+            width: auto;
+            font-size: 24px;
+            text-align: center;
+        }
+        .jobwrap p{
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.8;
+        }
+        .jobwrap a{
+            font-size: 16px;
+            text-decoration: none;
+            color: #aaa;
+            border: 1px solid #ccc;
+            border-radius: 200px;
+            background-color: transparent;
+            padding: 0 1em;
+            line-height: 1.5em;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .jobwrap a:hover{
+            background-color: #ccc;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+/* job content end*/
 
      /* header add search bar */
      .banner img{

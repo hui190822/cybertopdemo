@@ -19,7 +19,27 @@
 .banner img{
     width: 100%;
 }
+.ditem{
+    margin: 0px 10px;
+   
 
+}
+.ditem img{
+    width: 100%;
+    
+}
+.ditem h3{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 600;
+}
+.devtitle{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 40px 0 20px 0px;
+}
 footer p{
     padding: 20px 0;
     font-size: 0.9em;
@@ -55,41 +75,9 @@ footer p{
     content: "/";
     color: #aaa;
   }
-/*breadcrumb end */
+  /* breadcrumb end */
 
-/* word content start*/
-
-.witem{
-    padding: 0 20px;
-}
-
-.witem h2{
-    font-size: 28px;
-    padding: 40px 0px;
-    line-height: 1.2;
-    width: auto;
-    margin: auto;
-    font-weight: bold;
-    
-
-}
-.witem p{
-    word-wrap: break-word;
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-.signature{
-    text-align: right;
-    font-size: 18px;
-    font-weight: bolder;
-}
-
-
-/* word content end*/
-
-
-/* 769 up footer menu start*/
+ /* 769 up footer menu start*/
  .container{
     width: 100%;
     background-color: #EAEAEA;
@@ -102,6 +90,9 @@ footer p{
     margin: auto;
     padding: 20px 10px;
     height: auto;
+    /* align-items: center;
+    justify-content: center;
+     */
     justify-content: space-around;
 }
 .wrap .item1{
@@ -178,12 +169,6 @@ footer p{
 
 
 @media screen and (max-width: 768px){
-    .icon{
-        display: none;
-    }
-    hr{
-        display: none;
-    }
     .search{
         display: none;
     }
@@ -191,10 +176,6 @@ footer p{
     .breadcrumb{
         display: none;
     }
-
-    /* word content start*/
-    
-    /* word content start*/
 
     .container{
         display: none;
@@ -523,46 +504,45 @@ footer p{
     nav a:hover::after{
         width: 100%;
     }
-        /* word content start*/
+    /*show product*/
 
-        .icon{
-            display: flex;
-            justify-content: center;
-            /* width: 100%; */
-            /* background-color: tomato; */
-            padding-top: 40px;
-            
-        }
-        .icon img{
-          padding-right: 20px;
-          max-width: 50px;
-          height: 50px;
-         
-        }
-        .icon h3{
-            line-height: 50px;
-            font-size: 30px;
-      
-        }
-        hr{
-          margin-top: 40px;
-          width: 800px;
-          border: 1px solid #0066a7;
-          background-color: #0066A7;
-          height: 3px;
-        }
+    .ditem{
+        margin: 60px 0px;
+        display: flex;
+        margin: 60px 0;
+        border: 1px solid #888;
+    }
+    .ditem img{
+        width: 40%;
+        height: 200px;
+        
+    }
+    .ditem h3{
+        text-align: center;
+        font-size: 20px;
+        padding: 20px 0px;
+        font-weight: 600;
+        margin: auto;
+    }
+    .ditem:hover{
+        border: 2px solid #0066A7;
+        cursor: pointer;
+        color: #888;
+    }
+    .ditem:hover h3{
+       transform: scale(1.5);
+    }
+    .devtitle{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin: 40px 0 20px 0px;
+    }
 
-.witem{
-    padding: 0 50px;
-}
-
-.witem h2{
-    font-size: 32px;
-
-}
-
-
-/* word content end*/
+    .dwrap{
+        width: 500px;
+        margin: auto;
+    }
 
     .footercontainer{
         width: auto;
@@ -761,51 +741,45 @@ footer p{
     .footercontainer{
         display: none;
     }
-         /* word content start*/
+    /*show product*/
 
-         .icon{
-            display: flex;
-            justify-content: center;
-            /* width: 100%; */
-            /* background-color: tomato; */
-            padding-top: 40px;
-            
-        }
-        .icon img{
-          padding-right: 20px;
-          max-width: 50px;
-          height: 50px;
-         
-        }
-        .icon h3{
-            line-height: 50px;
-            font-size: 30px;
-      
-        }
-        hr{
-          margin-top: 40px;
-          width: 800px;
-          border: 1px solid #0066a7;
-          background-color: #0066A7;
-          height: 3px;
-        }
+    .ditem{
+        margin: 60px 0px;
+        display: flex;
+        margin: 60px 0;
+        border: 1px solid #888;
+    }
+    .ditem img{
+        width: 40%;
+        height: 200px;
+        
+    }
+    .ditem h3{
+        text-align: center;
+        font-size: 20px;
+        padding: 20px 0px;
+        font-weight: 600;
+        margin: auto;
+    }
+    .ditem:hover{
+        border: 2px solid #0066A7;
+        cursor: pointer;
+        color: #888;
+    }
+    .ditem:hover h3{
+       transform: scale(1.5);
+    }
+    .devtitle{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin: 40px 0 20px 0px;
+    }
 
-        .wordwrap{
-            max-width: 800px;
-            margin: auto;
-        }
-
-.witem{
-    padding: 0 50px;
-}
-
-.witem h2{
-    font-size: 32px;
-
-}
-
-
-/* word content end*/
+    .dwrap{
+        width: 500px;
+        margin: auto;
+    }
 
      /* header add search bar */
      .banner img{

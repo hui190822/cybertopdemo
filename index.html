@@ -1,174 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>CyberTop Homepage</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CyberTop</title>
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="indexcss.css">
     <script src="https://kit.fontawesome.com/b54fd4d6c3.js" crossorigin="anonymous"></script>
-
-  </head>
-  <body>
+</head>
+<body>
+<!-- HEADER START -->
+<input type="checkbox" name="" id="menu-control">
     <div class="header">
-      <a href="index.html"><img src="img/logo-black word.png" alt="cybertop logo" /></a>
-      <!-- <p class="logo">CyberTop</p> -->
-      <nav>
-        <a href="about.html">ABOUT US</a>
-        <a href="storage.html">PRODUCTS</a>
-        <a href="faq.html">SUPPORT</a>
-        <a href="#">NEWSROOM</a>
-      </nav>
-      <div class="search">
-        <div class="topsearch">
-          <input type="text" class="top" placeholder="SEARCH">
-          <div class="topsearchbtn">
-            <i class="fas fa-search"></i>
-          </div>
+        <div class="logo">
+            <a href="index.html"><img src="https://i.imgur.com/Xez8u9H.png" alt="cyber logo"></a>
         </div>
+        <label for="menu-control" class="menu-btn">
+            <span>選單</span>
+        </label>
+        <nav>
+            <a href="about.html">ABOUT US</a>
+            <a href="storage.html">PRODUCTS</a>
+            <a href="faq.html">SUPPORT</a>
+            <a href="#">NEWSROOM</a>
+        </nav>
+        <div class="search">
+            <div class="topsearch">
+              <input type="text" class="top" placeholder="SEARCH">
+            </div>
+            <div class="topsearchbtn">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </div>
+
+<!-- HEADER END -->
+
+<div class="hr"></div>
+
+<!-- BANNER START -->
+    <div class="banner">
+        <img src="https://i.imgur.com/TyqxT3U.jpg">
+        <div class="banner-txt">Welcome</div>
+    </div>
+<!-- BANNER END -->
+<!-- HOT PRODUCTS START -->
+    <div class="hot">
+        <div class="title">
+            <h2>熱門產品</h2>
+        </div>
+        <div class="hotwrap">
+            <div class="item">
+                <div class="pic">
+                    <figure>
+                        <img src="https://i.imgur.com/RC12Qzj.png" alt="computer">
+                        <figcaption>
+                            <h3>X-ONE系列</h3>
+                        </figcaption>
+                    </figure>
+                </div>   
+                                      
+                <div class="text">
+                    <p>電腦記憶體
+                        <br>X-one DDR4
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic">
+                    <figure>
+                        <img src="https://i.imgur.com/2x9RHNK.png" alt="phone">
+                        <figcaption>
+                            <h3>S-ONE系列</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="text">
+                    <p>手機記憶體
+                        <br>S-one LPDDR4
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic">
+                    <figure>
+                        <img src="https://i.imgur.com/1ldcwic.png" alt="graphic">
+                        <figcaption>
+                            <h3>G-ONE系列</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="text">
+                    <p>繪圖記憶體
+                        <br>G-one GPDDR5
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic">
+                    <figure>
+                        <img src="https://i.imgur.com/Tv7KEUN.png" alt="coms">
+                        <figcaption>
+                            <h3>M-ONE系列</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="text">
+                    <p>影像感測器
+                        <br>CMOS Image Sensor
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- HOT PRODUCTS END -->
+<!-- SERVICE START -->
+
+    <div class="service">
+        <div class="title">
+            <h2>支援服務</h2>
+        </div>
+        <div class="serwrap">
+            <div class="ser-item">
+                <div class="pic">
+                    <img src="https://i.imgur.com/rLJXUea.png" alt="people icon">
+                </div>
+                <div class="text">
+                    <h4>產品常見問題</h4>
+                    <p>請經由下列的兩個步驟，搜尋到解決您的答案。</p>
+                </div>
+            </div>
+            <div class="ser-item">
+                <div class="pic">
+                    <img src="https://i.imgur.com/t5HKHHU.png" alt="file icon">
+                </div>
+                <div class="text">
+                    <h4>產品保固說明</h4>
+                    <p>若相關產品需送修，請參考本司建議的方法進行。</p>
+                </div>
+            </div>
+            <div class="ser-item">
+                <div class="pic">
+                    <img src="https://i.imgur.com/01CUEY8.png?1" alt="fix icon">
+                </div>
+                <div class="text">
+                    <h4>線上諮詢中心</h4>
+                    <p>如有任何相關技術的問題，歡迎您線上查詢。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- SERVICE END -->
+<!-- FOOTER MENU START -->
+<div class="footercontainer">
+    <div class="footer-wrap">
+      <div class="item1">
+        <input type="checkbox" name="" id="footer-menu-control">
+        <dl class="footer-menu">
+          
+          <dt class="footer-title">
+            ABOUT US
+          </dt>
+          <label for="footer-menu-control" class="footer-btn"><span>+</span></label>
+            <dd class="footer-item1">
+              <a href="about.html">About CyberTop</a>
+              <a href="career.html">CyberTop Careers</a>
+            </dd>
+        </dl>
+      </div>
+      <div class="item2">
+        <input type="checkbox" name="" id="footer-menu-control-p">
+        <dl class="footer-menu">
+          <dt class="footer-title">
+            PRODUCTS
+          </dt>
+          <label for="footer-menu-control-p" class="footer-btn-p"><span>+</span></label>
+          <dd class="footer-item2">
+            <a href="storage.html">Storage Device</a>
+            <a href="#">Components</a>
+          </dd>  
+        </dl>
+      </div>
+      <div class="item3">
+        <input type="checkbox" name="" id="footer-menu-control-s">
+        <dl class="footer-menu">
+          <dt class="footer-title">
+            SUPPORT
+          </dt>
+          <label for="footer-menu-control-s" class="footer-btn-s"><span>+</span></label>
+          <dd class="footer-item3">
+              <a href="faq.html">FAQ</a>
+          </dd>
+        </dl>
+      </div>
+      <div class="item4">
+        <input type="checkbox" name="" id="footer-menu-control-c">
+        <dl class="footer-menu">
+        <dl class="footer-menu">
+          <dt class="footer-title">
+            CONTACT US
+          </dt>
+          <label for="footer-menu-control-c" class="footer-btn-s"><span>+</span></label>
+            <dd class="footer-item4">
+              <a href="mailto:yc3698678@gmail.com"><img src="https://i.imgur.com/auseS1D.png" alt="mail icon"></a>
+            </dd>
+        </dl>
       </div>
     </div>
+  </div>
 
-    <div class="hr"></div>
 
-   <div class="banner">
-     <img src="img/ramon-salinero.jpg">
-     <div class="big">
-       <p>Welcome</p>
-     </div>
-   </div>
-      <!-- hot content start -->
-    <div class="content">
-      <div class="home-title">熱門產品</div>
-      <div class="wrapper">
-       <div class="home">
-         <figure>
-          <a href="https://imgur.com/RC12Qzj"><img src="https://i.imgur.com/RC12Qzj.png" title="source: imgur.com" alt="computer" /></a>
-          <figcaption><h3>X-ONE系列</h3></figcaption>
-        </figure>
-         <div class="txt">
-      
-          <p>電腦記憶體
-            <br>X-one DDR4
-          </p>
-         </div>
+<!-- FOOTER MENU END -->
 
-       </div>
-       <div class="home">
-        <figure>
-          <!-- <img src="https://imgur.com/2x9RHNK" alt="phone"> -->
-          <a href="https://imgur.com/2x9RHNK"><img src="https://i.imgur.com/2x9RHNK.png" title="source: imgur.com" alt="phone" /></a>
-         
-          <figcaption><h3>S-ONE系列</h3></figcaption>
-        </figure>
+<!--1024 up footer start-->
+<div class="container">
+    <div class="wrap">
+      <div class="item1">
+        <ul class="about">
+          <li class="big">ABOUT US</li>
+            <li><a href="about.html">About CyberTop</a></li>
+            <li><a href="career.html">CyberTop Careers</a></li>
         
-        <div class="txt">
-       
-         <p>手機記憶體
-           <br>S-one LPDDR4
-         </p>
-        </div>
-       </div>
-
-       <div class="home">
-        <figure>
-          <a href="https://imgur.com/1ldcwic"><img src="https://i.imgur.com/1ldcwic.png" title="source: imgur.com" alt="graphic"/></a>
-          <figcaption><h3>G-ONE系列</h3></figcaption>
-        </figure>
-          <div class="txt">
-           
-           <p>繪圖記憶體
-             <br>G-one GPDDR5
-           </p>
-          </div>
-        </div>
-        <div class="home">
-          <figure>
-            <a href="https://imgur.com/Tv7KEUN"><img src="https://i.imgur.com/Tv7KEUN.png" title="source: imgur.com" alt="coms"/></a>
-            <figcaption><h3>M-ONE系列</h3></figcaption>
-          </figure>
-          <div class="txt">
-         
-           <p>影像感測器
-             <br>CMOS Image Sensor
-           </p>
-          </div>
-        </div>
-        
-        
+        </ul>
       </div>
-    </div>
-  
-<!-- hot content end -->
 
-<!-- support start -->
-   
-<div class="title">支援服務</div>
-<div class="swrap">
-  <div class="sitem">
-    <a href="https://imgur.com/rLJXUea"><img src="https://i.imgur.com/rLJXUea.png" title="source: imgur.com" alt="people q icon" /></a>
-    <div class="stxt">
-      <h4>產品常見問題</h4>
-      <p>請經由下列的兩個步驟，搜尋到解決您的答案。</p>
-    </div>
-  </div>
-  <div class="sitem">
-    <a href="https://imgur.com/t5HKHHU"><img src="https://i.imgur.com/t5HKHHU.png" title="source: imgur.com" alt="file icon" /></a>
-    <div class="stxt">
-      <h4>產品保固說明</h4>
-      <p>若相關產品需送修，請參考本司建議的方法進行。</p>
-    </div>
-  </div>
-  <div class="sitem">
-    <a href="https://imgur.com/01CUEY8"><img src="https://i.imgur.com/01CUEY8.png?1" title="source: imgur.com" alt="fix icon" /></a>
-    <div class="stxt">
-      <h4>線上諮詢中心</h4>
-      <p>如有任何相關技術的問題，歡迎您線上查詢。</p>
-    </div>
-  </div>
-</div>
+     <div class="item2">
+      <ul class="about">
+        <li class="big">PRODUCTS</li>
+          <li><a href="storage.html">Storage Device</a></li>
+          <li><a href="#">Components</a></li>
+      </ul>
     
-
-    <!-- bottom nav + footer start -->
-    <div class="container">
-      <div class="wrap">
-        <div class="item1">
-          <ul class="about">
-            <li class="big">ABOUT US</li>
-              <li><a href="about.html">About CyberTop</a></li>
-              <li><a href="career.html">CyberTop Careers</a></li>
-          
-          </ul>
-        </div>
-  
-       <div class="item2">
-        <ul class="about">
-          <li class="big">PRODUCTS</li>
-            <li><a href="#">Components</a></li>
-            <li><a href="storage.html">Storage Device</a></li>
-        </ul>
-      
-       </div>
-       <div class="item3">
-        <ul class="about">
-          <li class="big">SUPPORT</li>
-          
-            <li><a href="faq.html">FAQ</a></li>
-           
-        </ul>
-       </div>
-       <div class="item4">
-         <p class="about">CONTACT US</p>
-         <a href = "mailto:yc3698678@gmail.com"></a>
-         <a href="mailto:yc3698678@gmail.com"><img src="https://i.imgur.com/1EbCf5P.png" alt="mail icon"></a>
-        </div>
-      </div>
+     </div>
+     <div class="item3">
+      <ul class="about">
+        <li class="big">SUPPORT</li>
+        
+          <li><a href="faq.html">FAQ</a></li>
+         
+      </ul>
+     </div>
+     <div class="item4">
+       <p class="about">CONTACT US</p>
+       <a href="mailto:yc3698678@gmail.com"><img src="https://i.imgur.com/1EbCf5P.png" alt="mail icon"></a>
       </div>
     </div>
-    <footer>
-      <p>Copyright &copy; 2020 by Han小慧. All Right Reserved.</p>
-    </footer>
-  
-  </body>
+    </div>
+  </div>
+<!--1024 up footer end-->
+<!--footer start-->
+<footer>
+    <p>Copyright &copy; 2020 by Han小慧. <span>All Right Reserved.</span></p>
+  </footer>
+<!--footer end-->
+
+
+
+    
+</body>
 </html>

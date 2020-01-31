@@ -57,36 +57,89 @@ footer p{
   }
 /*breadcrumb end */
 
-/* word content start*/
-
-.witem{
-    padding: 0 20px;
+/*  content start*/
+.icon{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
 }
+ .icon img{
+     max-width: 50px;
+     padding-right: 20px;
+     height: 50px;
+ }
+ .icon h3{
+    line-height: 50px;
+    font-size: 20px;
 
-.witem h2{
-    font-size: 28px;
-    padding: 40px 0px;
-    line-height: 1.2;
+}
+hr{
+    display: none;
+  }
+
+  .wrapper{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 30px;
+}
+.searchbox{
+   display: flex;
+padding-top: 40px;
+background-color: rgba(0, 0, 0, 0.2);
+padding: 10px;
+border-radius: 10px;
+justify-content: space-between;
+}
+.input{
+    width: 60%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.searchbtn{
+    width: 20%;
+    background-color: #ffec00;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+
+    
+}
+.searchbtn .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+.searchbtn:hover{
+    color: white;
+    background-color: #fa0;
+
+}
+.question{
     width: auto;
     margin: auto;
-    font-weight: bold;
+    padding-top: 40px;
+}
+
+.list{
+    border-bottom: 1px solid #aaa;
+   
     
-
 }
-.witem p{
-    word-wrap: break-word;
-    font-size: 16px;
-    line-height: 1.8;
+.list:hover{
+    border: 2px solid #0066a7;
+    cursor: pointer;
 }
-
-.signature{
-    text-align: right;
+.list p{
     font-size: 18px;
-    font-weight: bolder;
+    padding: 10px 10px;
 }
 
-
-/* word content end*/
+/*content end*/
 
 
 /* 769 up footer menu start*/
@@ -178,12 +231,6 @@ footer p{
 
 
 @media screen and (max-width: 768px){
-    .icon{
-        display: none;
-    }
-    hr{
-        display: none;
-    }
     .search{
         display: none;
     }
@@ -192,9 +239,9 @@ footer p{
         display: none;
     }
 
-    /* word content start*/
+    /* job content start*/
     
-    /* word content start*/
+    /*job content start*/
 
     .container{
         display: none;
@@ -523,7 +570,7 @@ footer p{
     nav a:hover::after{
         width: 100%;
     }
-        /* word content start*/
+        /* content start*/
 
         .icon{
             display: flex;
@@ -551,18 +598,72 @@ footer p{
           background-color: #0066A7;
           height: 3px;
         }
+        .wrapper{
+            width: 70%;
+            height: auto;
+            margin: auto;
+            padding-top: 30px;
+        }
+        .searchbox{
+           display: flex;
+        padding-top: 40px;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        border-radius: 10px;
+        justify-content: space-between;
+        }
+        .input{
+            width: 70%;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .searchbtn{
+            width: 10%;
+            background-color: #ffec00;
+            border-radius: 10px;
+            cursor: pointer;
+            position: relative;
+        
+            
+        }
+        .searchbtn .fas{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 18px;
+        }
+        .searchbtn:hover{
+            color: white;
+            background-color: #fa0;
+        
+        }
+        .question{
+            width: auto;
+            margin: auto;
+            padding-top: 40px;
+        }
+        
+        .list{
+            border-bottom: 1px solid #aaa;
+           
+            
+        }
+        .list:hover{
+            border: 2px solid #0066a7;
+            cursor: pointer;
+        }
+        .list p{
+            font-size: 18px;
+            padding: 10px 10px;
+        }
+        
 
-.witem{
-    padding: 0 50px;
-}
-
-.witem h2{
-    font-size: 32px;
-
-}
 
 
-/* word content end*/
+/* content end*/
 
     .footercontainer{
         width: auto;
@@ -761,13 +862,11 @@ footer p{
     .footercontainer{
         display: none;
     }
-         /* word content start*/
+         /* content start*/
 
          .icon{
             display: flex;
             justify-content: center;
-            /* width: 100%; */
-            /* background-color: tomato; */
             padding-top: 40px;
             
         }
@@ -783,29 +882,49 @@ footer p{
       
         }
         hr{
+            display: block;
+            max-width: 800px;
           margin-top: 40px;
-          width: 800px;
+    
           border: 1px solid #0066a7;
           background-color: #0066A7;
           height: 3px;
         }
 
-        .wordwrap{
-            max-width: 800px;
+        .wrapper{
+            max-width: 600px;
+            height: auto;
             margin: auto;
+            padding-top: 30px;
         }
+        .searchbox{
+           display: flex;
+        padding-top: 40px;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        border-radius: 10px;
+        justify-content: space-between;
+        }
+        .input{
+            width: 80%;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .searchbtn{
+            width: 10%;
+            background-color: #ffec00;
+            border-radius: 10px;
+            cursor: pointer;
+            position: relative;
+        
+            
+        }
+       
+        
 
-.witem{
-    padding: 0 50px;
-}
-
-.witem h2{
-    font-size: 32px;
-
-}
-
-
-/* word content end*/
+/* content end*/
 
      /* header add search bar */
      .banner img{
