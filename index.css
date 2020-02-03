@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round100,300,400,500,700,900&display=swap');
+
+
+
 
 .logo img{
     display: block;
@@ -18,13 +22,28 @@
     height: 4px;
     width: 100%;
 }
-.banner img{
-    width: 100%;
-    vertical-align: bottom;
-}
 
 .pic img{
     width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.banner{
+    position: relative;
+}
+.banner-txt{
+    position: absolute;
+    width: 85%;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    color: #fff;
+    font-family: 'Crete Round', serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    /* padding-left: 30px; */
 }
 
 
@@ -35,32 +54,6 @@ footer p{
     background-color: #EAEAEA;
     color: #888;
 }
-
-/* bannner word*/
-.banner-txt{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #fff;
-    font-size: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-
-}
-.banner:hover .banner-txt{
-    opacity: 1;
-}
-
-.banner{
-    position: relative;
-}
-
-/* bannner word*/
 
 /* hot content start*/
 
@@ -225,7 +218,64 @@ footer p{
   }
  /* 769 up footer menu end*/
 
-
+@media (min-width: 768px){
+    .banner-txt{
+        position: absolute;
+        width: 85%;
+        top: 45%;
+        right: 50%;
+        transform: translate(50%, 50%);
+        color: #fff;
+        font-family: 'Crete Round', serif;
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 0.05em;
+        /* padding-left: 80px; */
+    }
+}
+@media (min-width: 1024px){
+    .banner-txt{
+        position: absolute;
+        width: 90%;
+        top: 30%;
+        right: 50%;
+        transform: translate(50%, 50%);
+        color: #fff;
+        font-family: 'Crete Round', serif;
+        /* padding-left: 80px; */
+    }
+    .banner-txt span{
+        font-size: 46px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+      
+    }
+}
+@media (min-width: 1400px){
+    .banner-txt{
+        width: 80%;
+        
+    }
+    .banner-txt span{
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+      
+    }
+}
+@media (min-width: 1900px){
+    .banner-txt{
+        width: 80%;
+        top: 30%;
+        
+    }
+    .banner-txt span{
+        font-size: 90px;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+      
+    }
+}
 
 @media screen and (max-width: 768px){
     .search{
@@ -507,6 +557,7 @@ footer p{
 }
 
 @media screen and (min-width:769px) and (max-width:1022px){
+    
     .search{
         display: none;
     }
@@ -753,6 +804,7 @@ footer p{
     
 }
 @media screen and (min-width:1023px){
+
 
     .footercontainer{
         display: none;
